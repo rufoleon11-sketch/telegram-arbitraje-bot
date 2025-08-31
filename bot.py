@@ -25,6 +25,17 @@ KEYWORDS = [
 
 bot = Bot(token=TELEGRAM_TOKEN)
 sent_items = set()
+ 
+# Artículo de prueba
+test_entry = {
+    "title": "Prueba de polémica arbitral",
+    "summary": "Esto es solo un test para comprobar el bot",
+    "link": "https://test.com/fake-article"
+}
+
+if test_entry["link"] not in sent_links:
+    bot.send_message(chat_id=CHAT_ID, text=f"🔥 Jugada polémica encontrada:\n{test_entry['title']}\n{test_entry['link']}")
+    sent_links.add(test_entry["link"])
 
 async def check_feeds():
     for feed_url in FEEDS:

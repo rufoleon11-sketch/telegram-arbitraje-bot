@@ -12,7 +12,7 @@ FEEDS = [
 ]
 
 KEYWORDS = [
-    "polémica", "arbitral", "árbitro", "árbitros", "colegiado", "jueces",
+    "arbitral", "árbitro", "árbitros", "colegiado", "jueces",
     "revisión", "instant replay", "error", "errores", "fallo", "fallos",
     "decisión", "decisiones", "dudosa", "falta", "técnica", "antideportiva",
     "descalificante", "pasos", "violación", "posesión", "tiempo muerto",

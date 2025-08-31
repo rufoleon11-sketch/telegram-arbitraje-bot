@@ -2,6 +2,7 @@ import feedparser
 import asyncio
 from telegram import Bot
 
+
 # --- Configuración ---
 TELEGRAM_TOKEN = "8364853526:AAHEgoy8KDvkY49uP6XbGZdVLTq3KF6jBCk"
 CHAT_ID = 1849086200  # tu chat ID
